@@ -14,10 +14,10 @@ function moveCursor() {
     let index = (y * 20 + x);
 
     for (const squareElement of squaresList) {
-        squareElement.className = "square";
+        squareElement.classList.remove("cursor");
     }
 
-    squaresList[index].className = "square cursor";
+    squaresList[index].classList.add("cursor");
 }
 
 document.addEventListener("keydown", (e) => {

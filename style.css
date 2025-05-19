@@ -16,6 +16,14 @@
     border: 1px solid #000000;
 }
 
+.cursor {
+    background-color: #ffff53;
+}
+
+.painted {
+    background-color: #000000;
+}
+
 h1 {
     color: #000000;
     display: flex;
